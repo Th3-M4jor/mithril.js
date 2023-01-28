@@ -1,6 +1,6 @@
 "use strict"
 
-var parseQueryString = require("../querystring/parse")
+const parseQueryString = require("../querystring/parse")
 
 // Returns `{path, params}` from `url`
 module.exports = function(url) {

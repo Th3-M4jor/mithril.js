@@ -56,5 +56,6 @@
       "eslint . --fix",
       "git add"
     ]
-  }
+  },
+  "sideEffects": "browser.js"
 }

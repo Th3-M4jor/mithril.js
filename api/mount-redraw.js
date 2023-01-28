@@ -1,6 +1,6 @@
 "use strict"
 
-var Vnode = require("../render/vnode")
+const Vnode = require("../render/vnode")
 
 module.exports = function(render, schedule, console) {
 	var subscriptions = []

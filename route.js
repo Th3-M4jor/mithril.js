@@ -1,5 +1,6 @@
 "use strict"
 
-var mountRedraw = require("./mount-redraw")
+const mountRedraw = require("./mount-redraw")
+const router = require("./api/router")
 
-module.exports = require("./api/router")(typeof window !== "undefined" ? window : null, mountRedraw)
+module.exports = router(typeof window !== "undefined" ? window : null, mountRedraw)
